@@ -19,7 +19,7 @@ inputs:
   debug:
     description: "Activate debug display"
     required: false
-    default: "false"
+    default: "true"
 
 runs:
   using: "composite"
