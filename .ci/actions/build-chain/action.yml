@@ -38,7 +38,7 @@ runs:
         definition-file: ${{ inputs.definition-file }}
         flow-type: ${{ inputs.flow-type }}
         starting-project: ${{ inputs.starting-project }}
-        logger-level: ${{ inputs.logger-level }}
+        logger-level: debug
         annotations-prefix: ${{ inputs.annotations-prefix }}
         additional-flags: ${{ inputs.additional-flags }}
       env:
